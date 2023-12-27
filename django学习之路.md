@@ -59,4 +59,15 @@ app01
 ![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/09439513-f0ed-4097-8adc-dfa946e3f6ca)
 
 2.2 编写URL和视图函数对应关系【urls.py】
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/40f21c79-d929-459a-a93d-4d17ecf64caf)
+
+2.3 编写视图函数 【views.py】
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/75a67e45-d538-4e83-aad1-4e55e1a9b86c)
+
+2.4 启动django项目
+2.4.1 命令行启动
+>python manage.py runserver![DM_20231227202031_001](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/30be48b0-c9cf-47a4-8ad1-3b35a851fbe7)
+
+2.2.2Pycharm启动
+
 
