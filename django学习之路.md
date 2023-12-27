@@ -1,4 +1,9 @@
+### 创建项目
+#### 打开终端
+* 进入某个目录（需要的文件）
+  >cd D:\Total_collection_box\qianhouduan_changku
 ### 创建APP 
 >项目
 >- app, 用户管理[表结构, 函数，HTML模板，CSS]
 注意：开发比较简洁，用不到多apP，一般情况下，项目下创建1个app即可。
+
