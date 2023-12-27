@@ -5,7 +5,7 @@
 #### 执行命令创建项目
 >"c:\python39\Scripts\django-admin.exe": startproject 项目名称
 >如果 C:\python39\Scripts 已加入环境系统环境变量
->> django-admin startproject mysite
+>> django-admin startproject mysite  
 **这两者方法，我用的是第二种，第一种没明白**
 ### 创建APP 
 >项目
