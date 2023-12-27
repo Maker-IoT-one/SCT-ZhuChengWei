@@ -54,6 +54,9 @@ app01
 
 
 ## 2 快速上手
+2.1 确保app已注册【settings.py】
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/c784394c-4209-4ce1-bd53-d2816199d59f)
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/09439513-f0ed-4097-8adc-dfa946e3f6ca)
 
-
+2.2 编写URL和视图函数对应关系【urls.py】
 
