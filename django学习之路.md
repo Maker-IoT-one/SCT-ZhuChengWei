@@ -66,7 +66,7 @@ app01
 
 2.4 启动django项目
 2.4.1 命令行启动
->python manage.py runserver![DM_20231227202031_001](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/30be48b0-c9cf-47a4-8ad1-3b35a851fbe7)
+>python manage.py runserver  ![DM_20231227202031_001](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/30be48b0-c9cf-47a4-8ad1-3b35a851fbe7)
 
 2.4.2Pycharm启动
 ![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/d5651120-946c-4f5a-8a94-b6bad3b3fc78)
@@ -110,6 +110,9 @@ app01
 
 ## 4 模板语法
 本质上：在HTML中写一些占位符，由数据对这些占位符进行替换和处理。
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/4c3611c2-0e66-46de-8ade-f2cabe1a3b41)
+
+### 案例
 
 ## 6 数据库操作
 + MySQL数据库+pymysql
