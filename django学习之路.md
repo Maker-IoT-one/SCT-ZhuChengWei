@@ -68,6 +68,46 @@ app01
 2.4.1 命令行启动
 >python manage.py runserver![DM_20231227202031_001](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/30be48b0-c9cf-47a4-8ad1-3b35a851fbe7)
 
-2.2.2Pycharm启动
+2.4.2Pycharm启动
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/d5651120-946c-4f5a-8a94-b6bad3b3fc78)
 
+
+## 3 再编写一个文件
+### 3.1 urls代码编写
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/5106aeb6-d201-4235-a51d-6f315bb1270e)
+
+### 3.2 templates模板
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/ddf3d46d-9c43-47ae-b153-bb75c1edde67)
+
+### 3.3 静态文件
+在开发过程中一般将：
++ 图片
++ CSS
++ js
+都会当做静态文件处理。
+
+
+#### 3.3.1 static目录
+在app目录下创建static文件夹
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/e78b9e6d-4654-4bb2-9c26-19809bda5e51)
+
+#### 3.3.2 引用静态文件
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/2dea05c8-6351-4e88-b1fd-69fdeb865871)
+
+### 3.4 最后流程梳理
+**url先写视图**
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/56389257-44da-4db6-bdbd-ac9cddef1853)
+
+**找到视图函数，编写视图函数**
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/ee30c06d-feda-40df-9a38-c7dd39f84fe5)
+
+**这个视图函数在templates里找**
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/8673e5cd-332f-4160-86db-73552fb179e7)
+
+**再找静态文件static**
+![image](https://github.com/Maker-IoT-one/SCT-ZhuChengWei/assets/150048050/e99ccd0b-b670-4801-a321-fdcff477b84a)
+
+
+## 4 模板语法
+本质上：在HTML中写一些占位符，由数据对这些占位符进行替换和处理。
 
