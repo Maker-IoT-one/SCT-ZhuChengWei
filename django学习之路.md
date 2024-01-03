@@ -111,3 +111,18 @@ app01
 ## 4 模板语法
 本质上：在HTML中写一些占位符，由数据对这些占位符进行替换和处理。
 
+## 6 数据库操作
++ MySQL数据库+pymysql
+>import pymysql
+># 1. 连接MySQL
+>conn = pymysql.connect(host="127.0.0.1", port=3306, user='root'),
+>passwd="root123",charset='utf8', db='unicom')
+>cursor = conn.cursor(cursor=pymysql.cursors,DictCursor)
+># 2.发送指令
+>cursor.execute("insert into admin(username,password,mobile)
+>values('wupeiqi', "qwe123", '15155555555')")
+>conn.commit()
+># 3.关闭
+>cursor.close()
+>conn.close()
+
